@@ -1,0 +1,73 @@
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #ff0000;
+	background-image: url(../Poster-bg.png);
+}
+
+.number {
+	height: 80px;
+	border: 2px solid #666;
+	border-radius: 10px;
+	margin: 10px 10px 0;
+	text-align: center;
+	font-weight: bold;
+	line-height: 80px;
+	font-size: 50px;
+	color: #0;
+	position: relative;
+	width: 47%;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 200px;
+}
+.name {
+	position: absolute;
+	font-size: 50px;
+	color: #0;
+	font-weight: bold;
+	right: 10px;
+	bottom: 10px;
+	line-height: 60px;
+	font-family: simHei, Arial, Helvetica, sans-serif;
+}
+
+.drawWrapper {
+    overflow: hidden;
+}
+.btnBar {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.btn-save, .btn {
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	font-size: 50px;
+	background-color: #06F;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 5px 20px 0;
+}
+
+.round-counter {
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	font-size: 50px;
+	/*background-color: #06F;*/
+	/*border-radius: 5px;*/
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 5px 20px 0;
+	float: right;
+}
